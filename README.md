@@ -1,12 +1,12 @@
 # Google_Cloud
 
-1.	Install the libraries 
+a.	Install the libraries 
 sudo apt install nodejs
 sudo apt install npm
 npm install http fs path mysql
 
-2. Install the mysql
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+b. Install the mysql
+-> wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
 sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
 sudo apt update
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 467B942D3A79BD29
@@ -17,4 +17,4 @@ mysql -u root -p
 SELECT VERSION();
 exit
 
-3. run the node file (ex: "node server.js")
+c. run the node file (ex: "node server.js")
